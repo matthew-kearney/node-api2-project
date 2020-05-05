@@ -9,9 +9,9 @@ server.use(express.json());
 server.use("/api/posts", postsRouter);
 
 server.get('/', (req, res) => {
-  res.send(`BLOG`);
+  res.send(`Im Working`);
 });
 
 server.listen(8001, () => {
-  console.log('!== Server Running on http://localhost:6310 ==!');
+  console.log('!== Server Running ==!');
 });
